@@ -53,7 +53,6 @@ class FabDialerState extends State<FabDialer> with TickerProviderStateMixin {
         controller: _controller,
       ));
     }
-    ;
     this._fab_menu_items = _fab_menu_items;
   }
 

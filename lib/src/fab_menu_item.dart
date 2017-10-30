@@ -23,6 +23,9 @@ class FabMiniMenuItem {
   final OnFabMiniMenuItemPressed onPressed;
 }
 
+class FabHeroTag {
+}
+
 class FabMenuMiniItemWidget extends StatelessWidget {
   const FabMenuMiniItemWidget(
       {Key key,
@@ -85,7 +88,9 @@ class FabMenuMiniItemWidget extends StatelessWidget {
                   backgroundColor: fabColor,
                   tooltip: 'Increment',
                   child: icon,
-                  onPressed: onPressed),
+                  onPressed: onPressed,
+                  heroTag: new FabHeroTag()
+              )
             )
           ],
         ));
